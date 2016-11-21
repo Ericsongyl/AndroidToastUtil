@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bt_default_toast"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:text="默认toast"/>
+
+    <Button
+        android:id="@+id/bt_center_toast"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:text="自定义居中toast"/>
+
+    <Button
+        android:id="@+id/bt_top_toast"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:text="自定义顶部toast"/>
+
+    <Button
+        android:id="@+id/bt_center_img_toast1"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:text="带图片居中toast 1"/>
+
+    <Button
+        android:id="@+id/bt_center_img_toast2"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:text="带图片居中toast 2"/>
+
+    <Button
+        android:id="@+id/bt_custom_duration_toast"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:text="带图片自定义时长toast"/>
+
+</LinearLayout>
