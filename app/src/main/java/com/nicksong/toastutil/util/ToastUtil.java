@@ -56,7 +56,7 @@ public class ToastUtil {
 
     /**
      * 自定义时长、居中显示toast
-     * @param duration
+     * @param duration 单位毫秒ms
      */
     public void show(int duration) {
         timeCount = new TimeCount(duration, 1000);
